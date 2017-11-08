@@ -2,111 +2,62 @@ import json
 import requests
 from bs4 import BeautifulSoup
 
-y = 1
+lista = []
 
-while (y < 12):
-
+for y in range(1, 12):
     url = ("https://www.infojobs.com.br/vagas-de-emprego-*.aspx?Page={}").format(y)
     page = requests.get(url)
     soup = BeautifulSoup(page.content, 'html.parser')
 
-    Site = soup.find(id="ctl00_phMasterPage_cGrid_divGrid")
+    site = soup.find(id="ctl00_phMasterPage_cGrid_divGrid")
 
-    NomeVagas = Site.find_all(class_="vaga ")
-    NomeEmpresas = Site.find_all(class_="vaga-company")
-    Data = Site.find_all(class_="data")
-    Local = Site.find_all(itemprop="addressLocality")
-    Sigla = Site.find_all(itemprop="addressRegion")
-    Area = Site.find_all(class_="area ")
+    nome_vagas = site.find_all(class_="vaga ")
+    nome_empresas = site.find_all(class_="vaga-company")
+    data = site.find_all(class_="data")
+    local = site.find_all(itemprop="addressLocality")
+    sigla = site.find_all(itemprop="addressRegion")
+    area = site.find_all(class_="area ")
 
-    prVagas = []
-    prEmpresas = []
-    prDias = []
-    prRegiao = []
-    prSiglas = []
-    prAreas = []
+    prvagas = []
+    prempresas = []
+    prdias = []
+    prregiao = []
+    prsiglas = []
+    prareas = []
 
-    for Vagas in NomeVagas:
-        Vagas2 = (Vagas.get_text())
-        Vagas3 = Vagas2.split("\n")
-        listVagas = list(Vagas3)
-        strVagas = "".join(listVagas)
-        stripVagas = strVagas.strip()
-        prVagas.append(stripVagas)
+    for vagas in nome_vagas:
+        vagas2 = vagas.get_text().strip()
+        prvagas.append(vagas2)
 
-    for Empresas in NomeEmpresas:
-        Empresas2 = (Empresas.get_text())
-        Empresas3 = Empresas2.split("\n")
-        listEmpresas = list(Empresas3)
-        strEmpresas = "".join(listEmpresas)
-        stripEmpresas = strEmpresas.strip()
-        prEmpresas.append(stripEmpresas)
+    for empresas in nome_empresas:
+        empresas2 = empresas.get_text().strip()
+        prempresas.append(empresas2)
 
-    for Dia in Data:
-        Dias = (Dia.get_text())
-        Dias2 = Dias.split("\n")
-        listDias = list(Dias2)
-        strDias = "".join(listDias)
-        stripDias = strDias.strip()
-        prDias.append(stripDias)
+    for dia in data:
+        dias = dia.get_text().strip()
+        prdias.append(dias)
 
-    for Regiao in Local:
-        Regiao2 = (Regiao.get_text())
-        Regiao3 = Regiao2.split("\n")
-        listRegiao = list(Regiao3)
-        strRegiao = "".join(listRegiao)
-        stripRegiao = strRegiao.strip()
-        prRegiao.append(stripRegiao)
+    for regiao in local:
+        regiao2 = regiao.get_text().strip()
+        prregiao.append(regiao2)
 
-    for Siglas in Sigla:
-        Siglas2 = (Siglas.get_text())
-        Siglas3 = Siglas2.split("\n")
-        listSiglas = list(Siglas3)
-        strSiglas = "".join(listSiglas)
-        stripSiglas = strSiglas.strip()
-        prSiglas.append(stripSiglas)
+    for siglas in sigla:
+        siglas2 = siglas.get_text().strip()
+        prsiglas.append(siglas2)
 
-    for Areas in Area:
-        Areas2 = (Areas.get_text())
-        Areas3 = Areas2.split("\n")
-        listAreas = list(Areas3)
-        strAreas = "".join(listAreas)
-        stripAreas = strAreas.strip()
-        prAreas.append(stripAreas)
+    for areas in area:
+        areas2 = areas.get_text().strip()
+        prareas.append(areas2)
 
-    frmV = ["{aff     Vaga:"] * 100
-    frmE = ["    Empresa:"] * 100
-    frmD = ["    Data:"] * 100
-    frmR = ["    Região:"] * 100
-    frmS = ["    Sigla:"] * 100
-    frmA = ["    Area:"] * 100
-    Virgula = ["..aff"] * 500
-    fim = ["aff }..aff"] * 100
-    a = "-" * 50
+    for i in zip(prvagas, prempresas, prdias, prregiao, prsiglas, prareas):
+        dt = {}
+        dt['vaga'] = i[0]
+        dt['empresa'] = i[1]
+        dt['data'] = i[2]
+        dt['regiao'] = i[3]
+        dt['sigla'] = i[4]
+        dt['area'] = i[5]
+        lista.append(dt)
 
-    tudo = ([j for i in zip(
-            frmV, prVagas, Virgula,
-            frmE, prEmpresas, Virgula,
-            frmD, prDias, Virgula,
-            frmR, prRegiao, Virgula,
-            frmS, prSiglas, Virgula,
-            frmA, prAreas, fim
-            )for j in i])
-
-    MarcaPagina = ("{0}Página {1}{2}").format(a, y, a)
-    print(MarcaPagina)
-
-    tudos = str(tudo)
-    strtudo = "".join(tudos)
-    pulartudo = strtudo.replace("aff", "\n")
-    pulartudo1 = pulartudo.replace("'", "")
-    pulartudo2 = pulartudo1.replace(",", "")
-    pulartudo3 = pulartudo2.replace("..", ",")
-    pulartudo4 = pulartudo3.replace("asdasd", "-" * 100)
-    pulartudo5 = pulartudo4.replace("aff", "\n")
-    print(pulartudo5)
-
-    with open('vagas.json', 'w') as f:
-        json.dump(pulartudo5, f, indent=4)
-
-    y += 1
+with open('vagas.json', 'w') as f:
+    json.dump(lista, f, indent=4)

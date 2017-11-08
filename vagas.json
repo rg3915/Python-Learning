@@ -1,1 +1,378 @@
-"[{\n     Vaga: Atendente De Loja Gpa Cart\u00f5es - Niter\u00f3i ,\n     Empresa: Multivarejo ,\n     Data: Hoje 10:12 ,\n     Regi\u00e3o: Niter\u00f3i ,\n     Sigla: RJ ,\n     Area: Comercial Vendas - Venda Interna \n },\n {\n     Vaga: Auxiliar Administrativo - Recursos Humanos - Idioma Japon\u00eas ,\n     Empresa: NISSHINBO DO BRASIL INDUSTRIA TEXTIL LTDA ,\n     Data: Hoje 15:09 ,\n     Regi\u00e3o: S\u00e3o Paulo ,\n     Sigla: SP ,\n     Area: Administra\u00e7\u00e3o - Administra\u00e7\u00e3o Geral \n },\n {\n     Vaga: Analista De Rh Generalista - Psicologia ,\n     Empresa:  ,\n     Data: Hoje 18:23 ,\n     Regi\u00e3o: Salvador ,\n     Sigla: BA ,\n     Area: Recursos Humanos - Recursos Humanos (Generalista) \n },\n {\n     Vaga: Instrutor/Monitor De Inform\u00e1tica - Autocad ,\n     Empresa: SOS ,\n     Data: Hoje 15:08 ,\n     Regi\u00e3o: Rio de Janeiro ,\n     Sigla: RJ ,\n     Area: Inform\u00e1tica TI Telecomunica\u00e7\u00f5es - Infraestrutura \n },\n {\n     Vaga: Balconista De A\u00e7ougue ,\n     Empresa: Mambo ,\n     Data: Hoje 18:21 ,\n     Regi\u00e3o: S\u00e3o Paulo ,\n     Sigla: SP ,\n     Area: Alimenta\u00e7\u00e3o / Gastronomia - A\u00e7ougue \n },\n {\n     Vaga: Dentista Cl\u00ednico Geral ,\n     Empresa: US&CO; ,\n     Data: Hoje 15:06 ,\n     Regi\u00e3o: S\u00e3o Paulo ,\n     Sigla: SP ,\n     Area: Sa\u00fade - Odontologia \n },\n {\n     Vaga: Separador Conferente - S\u00e3o Jos\u00e9 Dos Pinhais ,\n     Empresa: Ih!Deias ,\n     Data: Hoje 18:18 ,\n     Regi\u00e3o: S\u00e3o Jos\u00e9 dos Pinhais ,\n     Sigla: PR ,\n     Area: Log\u00edstica - Estoque Armazenagem Dep\u00f3sito \n },\n {\n     Vaga: Analista Programador Web ,\n     Empresa: Avantled ,\n     Data: Hoje 15:05 ,\n     Regi\u00e3o: S\u00e3o Paulo ,\n     Sigla: SP ,\n     Area: Inform\u00e1tica TI Telecomunica\u00e7\u00f5es - Programador / Desenvolvedor \n },\n {\n     Vaga: Operador De Caixa - Loja De Cosm\u00e9ticos A\u00e7\u00e3o De Natal - Todas As Regi\u00f5es ,\n     Empresa:  ,\n     Data: Hoje 18:18 ,\n     Regi\u00e3o: S\u00e3o Paulo ,\n     Sigla: SP ,\n     Area: Comercial Vendas - Lojas / Shopping \n },\n {\n     Vaga: Professor De Educa\u00e7\u00e3o Infantil ,\n     Empresa: Vilma Caetano ,\n     Data: Hoje 15:03 ,\n     Regi\u00e3o: S\u00e3o Paulo ,\n     Sigla: SP ,\n     Area: Educa\u00e7\u00e3o Ensino Idiomas  - Educa\u00e7\u00e3o Infantil \n },\n {\n     Vaga: Mecanico De Manuten\u00e7\u00e3o De Envase - Tabo\u00e3o Da Serra ,\n     Empresa: MEU TRABALHO.COM ,\n     Data: Hoje 18:17 ,\n     Regi\u00e3o: Itapecerica da Serra ,\n     Sigla: SP ,\n     Area: Constru\u00e7\u00e3o Manuten\u00e7\u00e3o - Manuten\u00e7\u00e3o de Maquinaria \n },\n {\n     Vaga: T\u00e9cnico Eletr\u00f4nico ,\n     Empresa: SOLARIS AUTOMATION ,\n     Data: Hoje 14:58 ,\n     Regi\u00e3o: Porto Alegre ,\n     Sigla: RS ,\n     Area: Inform\u00e1tica TI Telecomunica\u00e7\u00f5es - An\u00e1lise de Sistema \n },\n {\n     Vaga: Gerente Administrativo - Teixeira De Freitas Ba ,\n     Empresa: MASTER PROMOTORA ,\n     Data: Hoje 18:14 ,\n     Regi\u00e3o: Teixeira de Freitas ,\n     Sigla: BA ,\n     Area: Administra\u00e7\u00e3o - Administra\u00e7\u00e3o Geral \n },\n {\n     Vaga: Auxiliar De Limpeza ,\n     Empresa:  ,\n     Data: Hoje 14:56 ,\n     Regi\u00e3o: S\u00e3o Paulo ,\n     Sigla: SP ,\n     Area: Servi\u00e7os Gerais - Limpeza \n },\n {\n     Vaga: Mec\u00e2nico De Manuten\u00e7\u00e3o De M\u00e1quinas - P/Caieiras ,\n     Empresa:  ,\n     Data: Hoje 18:14 ,\n     Regi\u00e3o: Caieiras ,\n     Sigla: SP ,\n     Area: Constru\u00e7\u00e3o Manuten\u00e7\u00e3o - Manuten\u00e7\u00e3o de Maquinaria \n },\n {\n     Vaga: T\u00e9cnico Em Seguran\u00e7a Do Trabalho ,\n     Empresa: HUMANA DESENVOLVIMENTO PROFISSIONAL LTDA - ME ,\n     Data: Hoje 14:53 ,\n     Regi\u00e3o: Belo Horizonte ,\n     Sigla: MG ,\n     Area: Engenharia - Engenharia de Seguran\u00e7a do Trabalho \n },\n]"
+[
+    {
+        "vaga": "Est\u00e1gio Em Direito",
+        "regiao": "Porto Alegre",
+        "sigla": "RS",
+        "empresa": "FIJO",
+        "data": "27/10 16:48",
+        "area": "Jur\u00eddica - Advocacia Geral"
+    },
+    {
+        "vaga": "Estagi\u00e1rio Em Atendimento A Clientes - Veterin\u00e1ria",
+        "regiao": "S\u00e3o Paulo",
+        "sigla": "SP",
+        "empresa": "Duale VET",
+        "data": "Hoje 19:53",
+        "area": "Comercial, Vendas - Atendimento"
+    },
+    {
+        "vaga": "Roteirista - Guarulhos",
+        "regiao": "Guarulhos",
+        "sigla": "SP",
+        "empresa": "",
+        "data": "Hoje 20:23",
+        "area": "Comunica\u00e7\u00e3o, TV, Cinema - Jornalismo"
+    },
+    {
+        "vaga": "Estagi\u00e1rio Em Atendimento A Clientes - Veterin\u00e1ria",
+        "regiao": "S\u00e3o Bernardo do Campo",
+        "sigla": "SP",
+        "empresa": "Duale VET",
+        "data": "Hoje 19:53",
+        "area": "Comercial, Vendas - Atendimento"
+    },
+    {
+        "vaga": "Telemarketing Vendas - Migra\u00e7\u00e3o De Planos - Manh\u00e3 Ou Tarde",
+        "regiao": "S\u00e3o Paulo",
+        "sigla": "SP",
+        "empresa": "",
+        "data": "Hoje 20:22",
+        "area": "Telemarketing - Telemarketing / Call Center Ativo"
+    },
+    {
+        "vaga": "Analista De Suporte T\u00e9cnico",
+        "regiao": "Palho\u00e7a",
+        "sigla": "SC",
+        "empresa": "Total Voice",
+        "data": "Hoje 19:37",
+        "area": "Inform\u00e1tica, TI, Telecomunica\u00e7\u00f5es - Suporte T\u00e9cnico"
+    },
+    {
+        "vaga": "T\u00e9cnico \u00c1udio Visual - Alphaville",
+        "regiao": "Santana de Parna\u00edba",
+        "sigla": "SP",
+        "empresa": "",
+        "data": "Hoje 20:17",
+        "area": "Inform\u00e1tica, TI, Telecomunica\u00e7\u00f5es - Montagem e Manuten\u00e7\u00e3o de Micros"
+    },
+    {
+        "vaga": "Consultor Imobiliario - Ribeir\u00e3o Das Neves E Esmeraldas",
+        "regiao": "Ribeir\u00e3o das Neves",
+        "sigla": "MG",
+        "empresa": "FRAN\u00c7A TECNOLOGIA",
+        "data": "Hoje 19:16",
+        "area": "Comercial, Vendas - Venda Interna"
+    },
+    {
+        "vaga": "Motorista Carreteiro",
+        "regiao": "Guarulhos",
+        "sigla": "SP",
+        "empresa": "",
+        "data": "Hoje 20:11",
+        "area": "Transportes - Motorista"
+    },
+    {
+        "vaga": "Comprador",
+        "regiao": "S\u00e3o Paulo",
+        "sigla": "SP",
+        "empresa": "MAPLE LEAF",
+        "data": "Hoje 19:15",
+        "area": "Compras - Compras"
+    },
+    {
+        "vaga": "Analista Financeiro - Senior",
+        "regiao": "S\u00e3o Paulo",
+        "sigla": "SP",
+        "empresa": "VONEX TECNOLOGIA DA INFORMACAO LTDA",
+        "data": "Hoje 20:11",
+        "area": "Cont\u00e1bil, Finan\u00e7as, Economia - Finan\u00e7as"
+    },
+    {
+        "vaga": "Consultor De Vendas",
+        "regiao": "Dourados",
+        "sigla": "MS",
+        "empresa": "SHI",
+        "data": "Hoje 19:11",
+        "area": "Comercial, Vendas - Venda Externa"
+    },
+    {
+        "vaga": "Telemarketing - Migra\u00e7\u00e3o De Planos - Turno Manh\u00e3",
+        "regiao": "S\u00e3o Paulo",
+        "sigla": "SP",
+        "empresa": "",
+        "data": "Hoje 20:00",
+        "area": "Telemarketing - Telemarketing / Call Center Ativo"
+    },
+    {
+        "vaga": "Supervisor De Vendas Externas",
+        "regiao": "Dourados",
+        "sigla": "MS",
+        "empresa": "SHI",
+        "data": "Hoje 18:58",
+        "area": "Comercial, Vendas - Venda Externa"
+    },
+    {
+        "vaga": "Financeiro Com Experi\u00eancia Folha De Pagamento - Zona Sul",
+        "regiao": "S\u00e3o Paulo",
+        "sigla": "SP",
+        "empresa": "",
+        "data": "Hoje 19:59",
+        "area": "Cont\u00e1bil, Finan\u00e7as, Economia - Finan\u00e7as"
+    },
+    {
+        "vaga": "Comercial / Vendas",
+        "regiao": "S\u00e3o Leopoldo",
+        "sigla": "RS",
+        "empresa": "Uno Solu\u00e7\u00f5es Financeiras LDTA.",
+        "data": "Hoje 18:35",
+        "area": "Comercial, Vendas - Venda Interna"
+    },
+    {
+        "vaga": "Analista De Neg\u00f3cios Pl - Belo Horizonte/Mg",
+        "regiao": "Belo Horizonte",
+        "sigla": "MG",
+        "empresa": "ALGAR S/A",
+        "data": "30/08 14:24",
+        "area": "Marketing -  Intelig\u00eancia de Mercado / Estrat\u00e9gia"
+    },
+    {
+        "vaga": "Vendedor De Loja",
+        "regiao": "S\u00e3o Paulo",
+        "sigla": "SP",
+        "empresa": "Oi Tucuruvi",
+        "data": "Hoje 18:25",
+        "area": "Comercial, Vendas - Lojas / Shopping"
+    },
+    {
+        "vaga": "Tele Cobran\u00e7a (Ve\u00edculos E Cart\u00f5es) - Segunda \u00c0 Sexta",
+        "regiao": "S\u00e3o Paulo",
+        "sigla": "SP",
+        "empresa": "",
+        "data": "Hoje 19:57",
+        "area": "Telemarketing - Cobran\u00e7a"
+    },
+    {
+        "vaga": "Gerente De Vendas",
+        "regiao": "Itabora\u00ed",
+        "sigla": "RJ",
+        "empresa": "Maza Box Mercado LTDA",
+        "data": "Hoje 18:11",
+        "area": "Comercial, Vendas - Lojas / Shopping"
+    },
+    {
+        "vaga": "Analista De Vendas (Manh\u00e3) - Metr\u00f4 S\u00e9",
+        "regiao": "S\u00e3o Paulo",
+        "sigla": "SP",
+        "empresa": "",
+        "data": "Hoje 19:55",
+        "area": "Telemarketing - Telemarketing / Call Center Ativo"
+    },
+    {
+        "vaga": "Recepcionista - Hotel",
+        "regiao": "Guarulhos",
+        "sigla": "SP",
+        "empresa": "BRISTOL HOTEIS",
+        "data": "Hoje 18:10",
+        "area": "Hotelaria, Turismo - Recep\u00e7\u00e3o"
+    },
+    {
+        "vaga": "Telemarketing Diversas Opera\u00e7\u00f5es - Pcd - Zona Sul E Leste",
+        "regiao": "S\u00e3o Paulo",
+        "sigla": "SP",
+        "empresa": "",
+        "data": "Hoje 19:54",
+        "area": "Telemarketing - Telemarketing / Call Center Receptivo"
+    },
+    {
+        "vaga": "Gerente De Manuten\u00e7\u00e3o",
+        "regiao": "Itabora\u00ed",
+        "sigla": "RJ",
+        "empresa": "Maza Box Mercado LTDA",
+        "data": "Hoje 18:04",
+        "area": "Qualidade  - Qualidade"
+    },
+    {
+        "vaga": "Telemarketing Vendas - Migra\u00e7\u00e3o De Planos - Manh\u00e3 Ou Tarde",
+        "regiao": "S\u00e3o Paulo",
+        "sigla": "SP",
+        "empresa": "",
+        "data": "Hoje 19:53",
+        "area": "Telemarketing - Telemarketing / Call Center Ativo"
+    },
+    {
+        "vaga": "Assistente De Log\u00edstica - Pcd",
+        "regiao": "S\u00e3o Paulo",
+        "sigla": "SP",
+        "empresa": "DANONE",
+        "data": "Hoje 17:53",
+        "area": "Log\u00edstica - Transporte"
+    },
+    {
+        "vaga": "Auxiliar De Limpeza - Segunda \u00c0 Sexta - Butant\u00e3",
+        "regiao": "S\u00e3o Paulo",
+        "sigla": "SP",
+        "empresa": "",
+        "data": "Hoje 19:51",
+        "area": "Servi\u00e7os Gerais - Limpeza"
+    },
+    {
+        "vaga": "Analista De Compras Pleno (Pcd)",
+        "regiao": "S\u00e3o Paulo",
+        "sigla": "SP",
+        "empresa": "DANONE",
+        "data": "Hoje 17:53",
+        "area": "Compras - Compras"
+    },
+    {
+        "vaga": "Auxiliar Administrativo Comercial Para Escolinha De Futebol - Pomp\u00e9ia / Barra Funda",
+        "regiao": "S\u00e3o Paulo",
+        "sigla": "SP",
+        "empresa": "",
+        "data": "Hoje 19:49",
+        "area": "Administra\u00e7\u00e3o - Administra\u00e7\u00e3o Geral"
+    },
+    {
+        "vaga": "Corretor De Im\u00f3veis - Corretor De Imoveis Autonomo",
+        "regiao": "S\u00e3o Paulo",
+        "sigla": "SP",
+        "empresa": "Almeria Imoveis",
+        "data": "Hoje 17:40",
+        "area": "Comercial, Vendas - Corretagem"
+    },
+    {
+        "vaga": "Nutricionista - Gerente De Unidade - Cobertura De F\u00e9rias",
+        "regiao": "Mat\u00e3o",
+        "sigla": "SP",
+        "empresa": "DE NADAI",
+        "data": "Hoje 19:46",
+        "area": "Alimenta\u00e7\u00e3o / Gastronomia - Cozinha"
+    },
+    {
+        "vaga": "Assistente T\u00e9cnico Em Revestimentos",
+        "regiao": "Belo Horizonte",
+        "sigla": "MG",
+        "empresa": "Revestiform Pisos e Revestimentos",
+        "data": "Hoje 17:40",
+        "area": "Engenharia - Engenharia Civil"
+    },
+    {
+        "vaga": "Operador De Telemarketing Ativo",
+        "regiao": "Santo Andr\u00e9",
+        "sigla": "SP",
+        "empresa": "All Net",
+        "data": "21/09 11:14",
+        "area": "Telemarketing - Telemarketing / Call Center Ativo"
+    },
+    {
+        "vaga": "Lavador De Autos/Ajudante Geral",
+        "regiao": "S\u00e3o Paulo",
+        "sigla": "SP",
+        "empresa": "AGILITE PARIS",
+        "data": "Hoje 17:38",
+        "area": "Servi\u00e7os Gerais - Higieniza\u00e7\u00e3o / Estereliza\u00e7\u00e3o"
+    },
+    {
+        "vaga": "Gerente De Unidade - Cobertura De F\u00e9rias",
+        "regiao": "Mat\u00e3o",
+        "sigla": "SP",
+        "empresa": "DE NADAI",
+        "data": "Hoje 19:44",
+        "area": "Alimenta\u00e7\u00e3o / Gastronomia - Cozinha"
+    },
+    {
+        "vaga": "Vendedor De Loja - Joinville",
+        "regiao": "Joinville",
+        "sigla": "SC",
+        "empresa": "",
+        "data": "Hoje 17:38",
+        "area": "Comercial, Vendas - Lojas / Shopping"
+    },
+    {
+        "vaga": "Vendedor De Eletro - Fortaleza",
+        "regiao": "Fortaleza",
+        "sigla": "CE",
+        "empresa": "Multivarejo",
+        "data": "Hoje 19:42",
+        "area": "Comercial, Vendas - Venda T\u00e9cnica"
+    },
+    {
+        "vaga": "Comprador",
+        "regiao": "Boituva",
+        "sigla": "SP",
+        "empresa": "HYDRA TOOLS",
+        "data": "Hoje 17:28",
+        "area": "Compras - Compras"
+    },
+    {
+        "vaga": "Operador De Empilhadeira - Cajamar",
+        "regiao": "Cajamar",
+        "sigla": "SP",
+        "empresa": "",
+        "data": "Hoje 19:40",
+        "area": "Log\u00edstica - Estoque, Armazenagem, Dep\u00f3sito"
+    },
+    {
+        "vaga": "Auxiliar De Servi\u00e7os Gerais",
+        "regiao": "S\u00e3o Paulo",
+        "sigla": "SP",
+        "empresa": "PONTAL CALCADOS E BOLSAS LTDA",
+        "data": "Hoje 17:25",
+        "area": "Servi\u00e7os Gerais - Limpeza"
+    },
+    {
+        "vaga": "Auxiliar De Estoque - Tempor\u00e1rio",
+        "regiao": "Bras\u00edlia",
+        "sigla": "DF",
+        "empresa": "RHBrasil",
+        "data": "Hoje 19:33",
+        "area": "Industrial, Produ\u00e7\u00e3o, F\u00e1brica - Produ\u00e7\u00e3o"
+    },
+    {
+        "vaga": "Supervisor De Vendas",
+        "regiao": "4\u00ba Centen\u00e1rio",
+        "sigla": "SP",
+        "empresa": "Fini Guloseimas",
+        "data": "Hoje 17:25",
+        "area": "Comercial, Vendas - Representa\u00e7\u00e3o Comercial"
+    },
+    {
+        "vaga": "Auxiliar Administrativo Comercial - Vila Prudente",
+        "regiao": "S\u00e3o Paulo",
+        "sigla": "SP",
+        "empresa": "",
+        "data": "Hoje 19:30",
+        "area": "Marketing - Marketing"
+    },
+    {
+        "vaga": "Torneiro Mec\u00e2nico",
+        "regiao": "Boituva",
+        "sigla": "SP",
+        "empresa": "HYDRA TOOLS",
+        "data": "Hoje 17:24",
+        "area": "Industrial, Produ\u00e7\u00e3o, F\u00e1brica - Tornearia"
+    },
+    {
+        "vaga": "Intermediador De Neg\u00f3cios Imobili\u00e1rios",
+        "regiao": "S\u00e3o Paulo",
+        "sigla": "SP",
+        "empresa": "LPS SAO PAULO CONSULTORIA DE IMOVEIS LTDA",
+        "data": "Hoje 19:27",
+        "area": "Comercial, Vendas - Corretagem"
+    },
+    {
+        "vaga": "Supervisor De Unidade",
+        "regiao": "Mau\u00e1",
+        "sigla": "SP",
+        "empresa": "ASPREV ASSESSORIA E CONSULTORIA PREVIDENCIARIA LTDA",
+        "data": "Hoje 17:21",
+        "area": "Comercial, Vendas - Venda Interna"
+    },
+    {
+        "vaga": "Intermediador De Neg\u00f3cios Imobili\u00e1rios",
+        "regiao": "S\u00e3o Paulo",
+        "sigla": "SP",
+        "empresa": "LPS SAO PAULO CONSULTORIA DE IMOVEIS LTDA",
+        "data": "Hoje 19:26",
+        "area": "Comercial, Vendas - Corretagem"
+    }
+]
