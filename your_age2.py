@@ -5,7 +5,7 @@ def age(birthday):
     '''
     Retorna a idade em anos
     '''
-    today = datetime.now()
+    today = datetime.today()
 
     if not birthday:
         return None
