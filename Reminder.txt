@@ -1,0 +1,9 @@
+git add . #Add everything that has been modified
+
+git commit -m "test" #Message to say what has been done
+
+git push #upload
+
+git pull #download
+
+git status
