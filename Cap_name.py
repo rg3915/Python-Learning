@@ -10,4 +10,3 @@ for name in names:
 	
 final = " ".join(fullname)
 print(final)
-#test
